@@ -1,0 +1,9 @@
+
+
+
+        long timerID = vertx.setPeriodic(1000, id -> {
+          System.out.println("And every second this is printed");
+        });
+
+
+
